@@ -59,11 +59,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.2, )"
             },
             "Rotativa.AspNetCore": {
               "target": "Package",
@@ -136,13 +136,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
@@ -282,11 +282,11 @@
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
-              "version": "[27.2.1, )"
+              "version": "[30.0.1, )"
             },
             "EPPlus": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.1.2, )"
             }
           },
           "imports": [
