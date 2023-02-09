@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\CRUDExample\\CRUDExample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\CRUDExample\\CRUDExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\CRUDExample\\CRUDExample.csproj",
+        "projectName": "CRUDExample",
+        "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\CRUDExample\\CRUDExample.csproj",
+        "packagesPath": "C:\\Users\\nirza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\CRUDExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nirza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nirza\\OneDrive\\Documents\\MScFinalProjectCode": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj"
+              },
+              "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\nirza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nirza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nirza\\OneDrive\\Documents\\MScFinalProjectCode": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj",
+        "projectName": "ServiceContracts",
+        "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\nirza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nirza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nirza\\OneDrive\\Documents\\MScFinalProjectCode": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\nirza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nirza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nirza\\OneDrive\\Documents\\MScFinalProjectCode": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\ServiceContracts\\ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

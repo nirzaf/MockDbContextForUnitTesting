@@ -1,0 +1,14 @@
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+C:\Users\nirza\NewRiderProjects\AspNetCore-Harsha\18. xUnit [Advanced], Moq and Repository\01. Mock DbContext\Entities\obj\Debug\net6.0\ref\Entities.dll
