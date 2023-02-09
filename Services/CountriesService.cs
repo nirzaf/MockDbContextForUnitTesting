@@ -73,11 +73,11 @@ namespace Services
 
   public async Task<int> UploadCountriesFromExcelFile(IFormFile formFile)
   {
-   MemoryStream memoryStream = new MemoryStream();
+   MemoryStream memoryStream = new();
    await formFile.CopyToAsync(memoryStream);
    int countriesInserted = 0;
 
-   using (ExcelPackage excelPackage = new ExcelPackage(memoryStream))
+   using (ExcelPackage excelPackage = new(memoryStream))
    {
     ExcelWorksheet workSheet = excelPackage.Workbook.Worksheets["Countries"];
 
@@ -93,7 +93,7 @@ namespace Services
 
       if (_db.Countries.Where(temp => temp.CountryName == countryName).Count() == 0)
       {
-       Country country = new Country { CountryName = countryName };
+       Country country = new() { CountryName = countryName };
        _db.Countries.Add(country);
        await _db.SaveChangesAsync();
 

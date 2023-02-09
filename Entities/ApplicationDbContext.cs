@@ -27,7 +27,6 @@ namespace Entities
    foreach (Country country in countries)
     modelBuilder.Entity<Country>().HasData(country);
 
-
    //Seed to Persons
    string personsJson = File.ReadAllText("persons.json");
    List<Person> persons = JsonSerializer.Deserialize<List<Person>>(personsJson);
@@ -65,14 +64,14 @@ namespace Entities
   public int sp_InsertPerson(Person person)
   {
    SqlParameter[] parameters = {
-        new SqlParameter("@PersonID", person.PersonID),
-        new SqlParameter("@PersonName", person.PersonName),
-        new SqlParameter("@Email", person.Email),
-        new SqlParameter("@DateOfBirth", person.DateOfBirth),
-        new SqlParameter("@Gender", person.Gender),
-        new SqlParameter("@CountryID", person.CountryID),
-        new SqlParameter("@Address", person.Address),
-        new SqlParameter("@ReceiveNewsLetters", person.ReceiveNewsLetters)
+        new("@PersonID", person.PersonID),
+        new("@PersonName", person.PersonName),
+        new("@Email", person.Email),
+        new("@DateOfBirth", person.DateOfBirth),
+        new("@Gender", person.Gender),
+        new("@CountryID", person.CountryID),
+        new("@Address", person.Address),
+        new("@ReceiveNewsLetters", person.ReceiveNewsLetters)
       };
 
    return Database.ExecuteSqlRaw("EXECUTE [dbo].[InsertPerson] @PersonID, @PersonName, @Email, @DateOfBirth, @Gender, @CountryID, @Address, @ReceiveNewsLetters", parameters);

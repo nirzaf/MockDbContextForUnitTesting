@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "USJR2DHwTwaVNK4PVXACxmWDu0cX6gqpRde29ZSpHqkraaKMFTKtl7LULPlqwlJJhXpZ4J+N9wH3M89+uAfJBA==",
+  "dgSpecHash": "FXfXozW+EOK8jT3mWtFZAq6jFKBv37u93eudP08WSZGxdg2ets9bjFzcldFVkGqcXcCg8xk8rnWevqemYaWZrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nirza\\NewRiderProjects\\AspNetCore-Harsha\\18. xUnit [Advanced], Moq and Repository\\01. Mock DbContext\\Entities\\Entities.csproj",
   "expectedPackageFiles": [

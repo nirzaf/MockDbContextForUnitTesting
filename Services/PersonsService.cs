@@ -232,11 +232,11 @@ namespace Services
 
   public async Task<MemoryStream> GetPersonsCSV()
   {
-   MemoryStream memoryStream = new MemoryStream();
-   StreamWriter streamWriter = new StreamWriter(memoryStream);
+   MemoryStream memoryStream = new();
+   StreamWriter streamWriter = new(memoryStream);
 
-   CsvConfiguration csvConfiguration = new CsvConfiguration(CultureInfo.InvariantCulture);
-   CsvWriter csvWriter = new CsvWriter(streamWriter, csvConfiguration);
+   CsvConfiguration csvConfiguration = new(CultureInfo.InvariantCulture);
+   CsvWriter csvWriter = new(streamWriter, csvConfiguration);
 
    //PersonName,Email,DateOfBirth,Age,Gender,Country,Address,ReceiveNewsLetters
    csvWriter.WriteField(nameof(PersonResponse.PersonName));
@@ -274,8 +274,8 @@ namespace Services
 
   public async Task<MemoryStream> GetPersonsExcel()
   {
-   MemoryStream memoryStream = new MemoryStream();
-   using (ExcelPackage excelPackage = new ExcelPackage(memoryStream))
+   MemoryStream memoryStream = new();
+   using (ExcelPackage excelPackage = new(memoryStream))
    {
     ExcelWorksheet workSheet = excelPackage.Workbook.Worksheets.Add("PersonsSheet");
     workSheet.Cells["A1"].Value = "Person Name";
